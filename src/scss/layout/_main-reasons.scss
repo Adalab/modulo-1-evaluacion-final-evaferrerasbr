@@ -32,7 +32,10 @@
   grid-row: span 1;
 }
 
-.main-reasons__title,
+.main-reasons__title {
+  margin-bottom: 45px;
+}
+
 .grid__item {
   margin-bottom: 45px;
 }
