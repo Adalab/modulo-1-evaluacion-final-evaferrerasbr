@@ -8,9 +8,10 @@ body {
 
 .txt--title {
   font-family: $font-title;
-  &--color {
-    color: $color-brand-title;
-  }
+}
+
+.txt--dark {
+  color: $color-brand-dark;
 }
 
 .txt--light {
@@ -49,7 +50,6 @@ body {
 }
 
 .txt--sm {
-  font-weight: normal;
   font-size: 0.875rem;
   @include desktop {
     font-size: 1rem;
@@ -66,4 +66,8 @@ body {
 
 .txt--center {
   text-align: center;
+}
+
+.txt--regular {
+  font-weight: normal;
 }

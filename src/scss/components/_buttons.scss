@@ -14,7 +14,7 @@
   width: 76px;
   background-color: $color-brand-2;
   color: $color-brand-1;
-  font-weight: bold;
+  font-size: 1.25rem;
   border: 2px solid $color-brand-1;
   border-radius: 50px;
   transition: ease 0.5s;
@@ -27,5 +27,27 @@
   }
   @include desktop {
     width: 160px;
+  }
+}
+
+.button--reasons {
+  height: 45px;
+  width: 184px;
+  background-color: $color-brand-1;
+  color: $color-brand-2;
+  font-size: 1.25rem;
+  border: 2px solid $color-brand-2;
+  border-radius: 50px;
+  transition: ease 0.5s;
+  &:hover {
+    background-color: $color-brand-2;
+    color: $color-brand-1;
+    border: 2px solid $color-brand-1;
+  }
+  @include tablet {
+    width: 210px;
+  }
+  @include desktop {
+    width: 255px;
   }
 }

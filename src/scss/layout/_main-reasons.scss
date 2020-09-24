@@ -1,3 +1,42 @@
 .main-reasons {
-  background-color: $color-brand-extra;
+  background-color: $color-brand-ligth;
+  text-align: center;
+  padding: 30px 15px 60px 15px;
+  @include tablet {
+    padding: 30px 40px 60px 40px;
+  }
+  @include desktop {
+    padding: 60px 85px 60px 85px;
+  }
+}
+
+.main-reasons__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  @include tablet {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.grid__item-1 {
+  grid-row: span 1;
+}
+
+.grid__item-2 {
+  grid-row: span 1;
+}
+
+.grid__item-3 {
+  grid-row: span 1;
+}
+
+.main-reasons__title,
+.grid__item {
+  margin-bottom: 45px;
+}
+
+.main-reasons__subtitle {
+  margin-bottom: 5px;
 }
