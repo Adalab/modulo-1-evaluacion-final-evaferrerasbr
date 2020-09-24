@@ -1,3 +1,32 @@
+body {
+  font-family: $font-family;
+  color: $color-brand-texts;
+}
+
 .txt-light {
   color: $color-brand-2;
+}
+
+.txt.xl {
+  font-size: 2.33 rem;
+}
+
+.txt.lg {
+  font-size: 1.33 rem;
+}
+
+.txt-md {
+  font-size: 0.88 rem;
+}
+
+.txt-sm {
+  font-size: 0.77 rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }

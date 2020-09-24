@@ -1,13 +1,7 @@
 @import "core/variables";
 @import "core/reset";
 @import "components/typography";
-
-.header {
-  background-color: $color-brand-4;
-  height: 44px;
-  width: 44px;
-  position: fixed;
-}
+@import "layout/header";
 
 .hero {
   background-color: powderblue;
