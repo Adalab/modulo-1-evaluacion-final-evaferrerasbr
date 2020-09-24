@@ -6,15 +6,22 @@ body {
   }
 }
 
-.txt-title {
+.txt--title {
   font-family: $font-title;
+  &--color {
+    color: $color-brand-title;
+  }
 }
 
-.txt-light {
+.txt--light {
   color: $color-brand-2;
 }
 
-.txt-xl {
+.section--color {
+  color: $color-brand-3;
+}
+
+.txt--xl {
   font-size: 2.625rem;
   @include tablet {
     font-size: 5rem;
@@ -24,16 +31,29 @@ body {
   }
 }
 
-.txt-lg {
+.txt--lg {
   font-size: 1.5rem;
+  @include tablet {
+    font-size: 1.625rem;
+  }
+  @include desktop {
+    font-size: 2rem;
+  }
 }
 
-.txt-md {
+.txt--md {
   font-size: 1.125rem;
+  @include tablet {
+    font-size: 1.25rem;
+  }
 }
 
-.txt-sm {
+.txt--sm {
+  font-weight: normal;
   font-size: 0.875rem;
+  @include desktop {
+    font-size: 1rem;
+  }
 }
 
 .uppercase {
@@ -44,6 +64,6 @@ body {
   text-transform: capitalize;
 }
 
-.txt-center {
+.txt--center {
   text-align: center;
 }

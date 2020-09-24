@@ -5,14 +5,9 @@
 @import "components/buttons";
 @import "layout/header";
 @import "components/hero";
-
-.main-tips {
-  background-color: $color-brand-2;
-}
-
-.main-reasons {
-  background-color: $color-brand-extra;
-}
+@import "layout/main";
+@import "layout/main-tips";
+@import "layout/main-reasons";
 
 .footer {
   background-color: $color-brand-5;

@@ -1,0 +1,17 @@
+.main-tips {
+  background-color: $color-brand-2;
+  padding: 30px 15px 45px 15px;
+  @include tablet {
+    padding: 30px 39px 60px 39px;
+  }
+  @include desktop {
+    padding: 60px 275px 60px 275px;
+  }
+}
+
+.main-tips__text {
+  margin: 15px auto 30px auto;
+  @include tablet {
+    margin: 30px auto 30px auto;
+  }
+}
