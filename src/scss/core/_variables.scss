@@ -1,6 +1,16 @@
-// fonts
-$font-main: "Roboto", sans-serif;
+/*colors*/
 
-// colors
-$color-white: #f3f4f5;
-$color-secondary: #999;
+$color-brand-1: #f26002;
+$color-brand-2: #ffffff;
+$color-brand-3: #8ccbea;
+$color-brand-4: #0271bc;
+$color-brand-5: #304268;
+$color-brand-extra: #eff9ff;
+$color-brand-text: #4a4a4a;
+$color-brand-title: #000000;
+
+/*fonts*/
+$font-family: "Roboto", sans-serif;
+$font-title: "Roboto Slab", serif;
+$font-size: 1rem;
+$font-color-base: $color-brand-text;

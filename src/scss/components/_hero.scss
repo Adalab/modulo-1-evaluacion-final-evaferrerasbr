@@ -1,0 +1,41 @@
+.hero {
+  background: url("../images/cover.jpg") center top;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 284px 15px 53px 15px;
+  @include tablet {
+    margin: 384px 39px 45px 39px;
+  }
+  @include desktop {
+    margin: 384px 275px 13px 275px;
+  }
+}
+
+.hero__title {
+  margin-bottom: 10px;
+  max-width: 290px;
+  @include tablet {
+    margin-bottom: 20px;
+    max-width: 690px;
+  }
+  @include desktop {
+    margin-bottom: 0;
+    max-width: 730px;
+  }
+}
+
+.hero__text {
+  margin-bottom: 45px;
+  @include tablet {
+    margin-bottom: 30px;
+  }
+}

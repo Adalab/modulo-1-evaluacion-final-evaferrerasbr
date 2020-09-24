@@ -1,0 +1,49 @@
+body {
+  font-family: $font-family;
+  color: $color-brand-text;
+  @include tablet {
+    font-size: 1.5rem;
+  }
+}
+
+.txt-title {
+  font-family: $font-title;
+}
+
+.txt-light {
+  color: $color-brand-2;
+}
+
+.txt-xl {
+  font-size: 2.625rem;
+  @include tablet {
+    font-size: 5rem;
+  }
+  @include desktop {
+    font-size: 6.25rem;
+  }
+}
+
+.txt-lg {
+  font-size: 1.5rem;
+}
+
+.txt-md {
+  font-size: 1.125rem;
+}
+
+.txt-sm {
+  font-size: 0.875rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.txt-center {
+  text-align: center;
+}
