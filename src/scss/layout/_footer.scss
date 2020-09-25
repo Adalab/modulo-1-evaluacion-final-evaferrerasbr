@@ -1,22 +1,16 @@
 .footer {
-  font-size: 1rem;
   background-color: $color-brand-5;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  line-height: 1.88;
+  padding: 60px 0 15px 0; /*padding bottom es 15 porque a cada item le he puesto un margin bottom de 30*/
   @include tablet {
-    padding-top: 45px;
-    padding-left: 40px;
-    padding-right: 40px;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
     text-align: left;
+    padding: 45px 0 45px 0;
     .footer__item--copyright {
       order: -1;
     }
@@ -25,6 +19,26 @@
     padding-left: 370px;
     padding-right: 370px;
   }
+}
+
+.footer__item {
+  width: 210px;
+  margin-bottom: 30px;
+  @include tablet {
+    margin-bottom: 0;
+  }
+}
+
+.footer__item--copyright {
+  display: flex;
+  flex-direction: column;
+  @include desktop {
+    margin-right: 37px;
+  }
+}
+
+.heart {
+  color: $color-brand-1;
 }
 
 .footer__button {
@@ -45,20 +59,4 @@
   100% {
     border: 2px solid $color-brand-2;
   }
-}
-
-.footer__item {
-  margin-bottom: 30px;
-  @include desktop {
-    margin-right: 30px;
-  }
-}
-
-.footer__item--copyright {
-  display: flex;
-  flex-direction: column;
-}
-
-.heart {
-  color: $color-brand-1;
 }

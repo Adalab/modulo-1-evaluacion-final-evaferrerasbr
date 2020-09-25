@@ -2,7 +2,7 @@
   background-color: $color-brand-2;
   padding: 30px 15px 45px 15px;
   @include tablet {
-    padding: 30px 39px 60px 39px;
+    padding: 30px 40px 60px 40px;
   }
   @include desktop {
     padding: 60px 275px 60px 275px;
@@ -11,11 +11,15 @@
 
 .main-tips__title {
   margin-bottom: 5px;
+  @include tablet {
+    margin-bottom: 10px;
+  }
 }
 
 .main-tips__text {
-  margin: 15px auto 30px auto;
+  line-height: 30px;
+  margin: 15px 0 30px 0;
   @include tablet {
-    margin: 30px auto 30px auto;
+    margin: 30px 0 30px 0;
   }
 }

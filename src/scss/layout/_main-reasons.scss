@@ -1,6 +1,5 @@
 .main-reasons {
   background-color: $color-brand-6;
-  text-align: center;
   padding: 30px 15px 60px 15px;
   @include tablet {
     padding: 30px 40px 60px 40px;
@@ -30,6 +29,17 @@
 
 .grid__item-3 {
   grid-row: span 1;
+}
+
+.grid__item {
+  margin: auto;
+  max-width: 180px;
+  @include tablet {
+    max-width: 210px;
+  }
+  @include desktop {
+    max-width: 250px;
+  }
 }
 
 .main-reasons__title {

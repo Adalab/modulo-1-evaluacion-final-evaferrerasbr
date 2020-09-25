@@ -2,25 +2,6 @@ body {
   font-family: $font-family;
   font-size: $font-size;
   color: $font-color-base;
-  @include tablet {
-    font-size: 1.5rem;
-  }
-}
-
-.txt--title {
-  font-family: $font-title;
-}
-
-.txt--dark {
-  color: $color-brand-7;
-}
-
-.txt--light {
-  color: $color-brand-2;
-}
-
-.section--color {
-  color: $color-brand-3;
 }
 
 .txt--xl {
@@ -50,6 +31,13 @@ body {
   }
 }
 
+.txt--base {
+  font-size: 1rem;
+  @include tablet {
+    font-size: 1.5rem;
+  }
+}
+
 .txt--sm {
   font-size: 0.875rem;
   @include desktop {
@@ -71,4 +59,28 @@ body {
 
 .txt--center {
   text-align: center;
+}
+
+.txt--normal {
+  font-weight: normal;
+}
+
+.txt--height {
+  line-height: 30px;
+}
+
+.txt--title {
+  font-family: $font-title;
+}
+
+.txt--dark {
+  color: $color-brand-7;
+}
+
+.txt--light {
+  color: $color-brand-2;
+}
+
+.section--color {
+  color: $color-brand-3;
 }
