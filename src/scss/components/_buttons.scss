@@ -21,6 +21,7 @@
   &:hover {
     background-color: $color-brand-1;
     color: $color-brand-2;
+    cursor: pointer;
   }
   @include tablet {
     width: 91px;
@@ -43,6 +44,7 @@
     background-color: $color-brand-2;
     color: $color-brand-1;
     border: 2px solid $color-brand-1;
+    cursor: pointer;
   }
   @include tablet {
     width: 210px;
