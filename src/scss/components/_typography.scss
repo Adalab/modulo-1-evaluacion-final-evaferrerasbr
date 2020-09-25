@@ -1,7 +1,7 @@
 body {
   font-family: $font-family;
-  color: $color-brand-text;
-  line-height: 1.5;
+  font-size: $font-size;
+  color: $font-color-base;
   @include tablet {
     font-size: 1.5rem;
   }
@@ -12,7 +12,7 @@ body {
 }
 
 .txt--dark {
-  color: $color-brand-dark;
+  color: $color-brand-7;
 }
 
 .txt--light {
@@ -71,8 +71,4 @@ body {
 
 .txt--center {
   text-align: center;
-}
-
-.txt--regular {
-  font-weight: normal;
 }
