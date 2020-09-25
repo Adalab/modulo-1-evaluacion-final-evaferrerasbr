@@ -65,16 +65,13 @@ body {
   font-weight: normal;
 }
 
-.txt--bold {
-  font-weight: bold;
-}
-
 .txt--height {
   line-height: 30px;
 }
 
 .txt--title {
   font-family: $font-title;
+  font-weight: bold;
 }
 
 .txt--dark {

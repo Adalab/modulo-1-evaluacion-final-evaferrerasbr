@@ -35,4 +35,9 @@
     color: $color1;
     cursor: pointer;
   }
+  &:focus {
+    background-color: $color-brand-4;
+    color: $color-brand-2;
+    border: 2px solid $color-brand-2;
+  }
 }
