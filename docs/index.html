@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación final del módulo 1</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -16,40 +16,42 @@
   </head>
 
   <body>
-    <header class="header">
-      <a
-        class="link"
-        href="https://adalab.es/"
-        target="_blank"
-        alt="Link to Adalab homepage"
-        title="Link to Adalab homepage"
-      >
-        <img
-          src="./assets/images/ico-menu.svg"
-          alt="Navigation menu with link to Adalab homepage"
-          title="Navigation menu with link to Adalab homepage"
-        />
-      </a>
+    <header>
+      <nav class="header__menu">
+        <a
+          class="link"
+          href="https://adalab.es/"
+          target="_blank"
+          alt="Link to Adalab homepage"
+          title="Link to Adalab homepage"
+        >
+          <img
+            src="./assets/images/ico-menu.svg"
+            alt="Navigation menu with link to Adalab homepage"
+            title="Navigation menu with link to Adalab homepage"
+          />
+        </a>
+      </nav>
+      <div class="hero txt--light" id="start">
+        <div class="hero__wrapper">
+          <h1 class="hero__title txt--xl txt--title txt--center uppercase">
+            Anonymous proxy
+          </h1>
+          <p class="hero__text txt--reg">In hac habitasse platea dictumst.</p>
+          <a class="button--scroll" href="#main-reasons--id">
+            <img src="./assets/images/ico-scroll-down.svg" />
+          </a>
+        </div>
+      </div>
+
     </header>
 
-    <div class="hero txt--light" id="start">
-      <div class="hero__wrapper">
-        <h1 class="hero__title txt--title txt--xl txt--center uppercase">
-          Anonymous proxy
-        </h1>
-        <p class="hero__text">In hac habitasse platea dictumst.</p>
-        <a class="button--scroll" href="#main-reasons--id">
-          <img src="./assets/images/ico-scroll-down.svg" />
-        </a>
-      </div>
-    </div>
-
-    <main class="main">
+    <main>
       <section class="main-tips">
-        <h2 class="main-tips__title txt--sm section--color txt--regular">
+        <h2 class="main-tips__title txt--sm txt--weight section--color">
           Insomnia tips
         </h2>
-        <h3 class="txt--lg txt--title txt--dark capitalize">
+        <h3 class="txt--lg txt--title txt--dark txt--bold capitalize">
           Looking through a window
         </h3>
         <p class="main-tips__text txt--md">
@@ -59,36 +61,33 @@
         <button class="button--go">Go</button>
       </section>
 
-      <section class="main-reasons" id="main-reasons--id">
-        <h3 class="main-reasons__title txt--title txt--dark txt--lg capitalize">
+      <section class="main-reasons txt--center txt--dark" id="main-reasons--id">
+        <h3 class="main-reasons__title txt--title txt--lg txt--bold capitalize">
           3 reasons to purchase
         </h3>
-        <div class="main-reasons__grid">
+        <div class="main-reasons__grid txt--height txt--md">
           <div class="grid__item grid__item-1">
-            <h4 class="main-reasons__subtitle txt--title txt--dark txt--md">
-              Ut sed metus
-            </h4>
-            <p class="txt--dark txt--md">Lorem ipsum dolor sit amet, consecteur.</p>
+            <h4 class="main-reasons__subtitle txt--title txt--bold">Ut sed metus</h4>
+            <p>Lorem ipsum dolor sit amet, consecteur.</p>
           </div>
+
           <div class="grid__item grid__item-2">
-            <h4 class="main-reasons__subtitle txt--title txt--dark txt--md">
-              Curabitur ac erat
-            </h4>
-            <p class="txt--dark txt--md">Mauris mattis urna quis lorem molestie.</p>
+            <h4 class="main-reasons__subtitle txt--title txt--bold">Curabitur ac erat</h4>
+            <p>Mauris mattis urna quis lorem molestie.</p>
           </div>
+
           <div class="grid__item grid__item-3">
-            <h4 class="main-reasons__subtitle txt--title txt--dark txt--md">
-              Morbi dictum
-            </h4>
-            <p class="txt--dark txt--md">Aliquam in dolor et dolor tincidunt.</p>
+            <h4 class="main-reasons__subtitle txt--title txt--bold">Morbi dictum</h4>
+            <p>Aliquam in dolor et dolor tincidunt.</p>
           </div>
+
         </div>
         <button class="button--reasons">More reasons</button>
       </section>
 
     </main>
 
-    <footer class="footer txt--light uppercase">
+    <footer class="footer txt--light txt--center txt--height uppercase">
       <a class="footer__button button--scroll" href="#start">
         <img src="./assets/images/ico-arrow.svg" />
       </a>
@@ -101,8 +100,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Article</a
-            >
+              >Articles
+            </a>
+
           </li>
           <li>
             <a
@@ -111,8 +111,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Books</a
-            >
+              >Books
+            </a>
+
           </li>
           <li>
             <a
@@ -121,8 +122,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Events</a
-            >
+              >Events
+            </a>
+
           </li>
           <li>
             <a
@@ -131,8 +133,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Reasons</a
-            >
+              >Reasons
+            </a>
+
           </li>
           <li>
             <a
@@ -141,8 +144,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Tips</a
-            >
+              >Tips
+            </a>
+
           </li>
         </ul>
       </nav>
@@ -155,8 +159,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Twitter</a
-            >
+              >Twitter
+            </a>
+
           </li>
           <li>
             <a
@@ -165,8 +170,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Instagram</a
-            >
+              >Instagram
+            </a>
+
           </li>
           <li>
             <a
@@ -175,8 +181,9 @@
               alt="Link to Adalab homepage"
               title="Link to Adalab homepage"
               target="_blank"
-              >Mastodon.social</a
-            >
+              >Mastodon.social
+            </a>
+
           </li>
         </ul>
       </nav>
