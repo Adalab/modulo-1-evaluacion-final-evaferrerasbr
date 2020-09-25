@@ -22,6 +22,7 @@
 }
 
 @mixin button-style2($color1, $color2) {
+  font-family: $font-family;
   background-color: $color1;
   color: $color2;
   border: 2px solid $color2;
