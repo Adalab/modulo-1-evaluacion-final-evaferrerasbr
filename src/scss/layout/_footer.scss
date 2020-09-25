@@ -7,7 +7,7 @@
   padding: 60px 0 15px 0; /*padding bottom es 15 porque a cada item le he puesto un margin bottom de 30*/
   @include tablet {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     text-align: left;
     padding: 45px 0 45px 0;
@@ -16,15 +16,14 @@
     }
   }
   @include desktop {
-    padding-left: 370px;
-    padding-right: 370px;
+    padding: 45px 370px 45px 370px;
   }
 }
 
 .footer__item {
-  width: 210px;
   margin-bottom: 30px;
   @include tablet {
+    width: 210px;
     margin-bottom: 0;
   }
 }
@@ -32,8 +31,11 @@
 .footer__item--copyright {
   display: flex;
   flex-direction: column;
-  @include desktop {
-    margin-right: 37px;
+}
+
+.footer__item--sections {
+  @include tablet {
+    margin: 0 30px 0 30px;
   }
 }
 
