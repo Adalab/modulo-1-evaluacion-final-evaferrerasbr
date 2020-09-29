@@ -1,5 +1,5 @@
 .footer__item {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   @include tablet {
     width: 210px;
     margin-bottom: 0;
@@ -9,6 +9,12 @@
 .footer__item--copyright {
   display: flex;
   flex-direction: column;
+}
+
+.components {
+  @include tablet {
+    color: $color-brand-1;
+  }
 }
 
 .footer__item--sections {

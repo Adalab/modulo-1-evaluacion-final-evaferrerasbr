@@ -1,5 +1,5 @@
 .footer {
-  background-color: $color-brand-5;
+  background-color: $color-brand-4;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -11,9 +11,6 @@
     align-items: flex-start;
     text-align: left;
     padding: 45px 0 45px 0;
-    .footer__item--copyright {
-      order: -1;
-    }
   }
   @include desktop {
     padding: 45px 370px 45px 370px;
