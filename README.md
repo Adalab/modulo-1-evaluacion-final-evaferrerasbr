@@ -4,21 +4,21 @@
 
 El ejercicio de la evaluación plantea crear una página web desde cero en base a un diseño dado con las siguientes secciones:
 
-1. Header
+1. **Header**
 
 Esta sección está **maquetada con flex** e incluye:
 
 - Menú de navegación fijo.
 - Sección hero que incluye imagen de fondo, h1 y eslogan.
 
-2. Main
+2. **Main**
 
 Sección que abarca todo el cuerpo de la página. Está a su vez dividido en dos secciones:
 
 - Tips. Maquetada con **propiedades básicas de CSS** como padding, width o margins.
 - Reasons. Utiliza **grid**. Cada elemento del grid es un **partial de HTML**, lo que nos permite replicar su estructura tantas veces como queramos editando los elementos necesarios (en este caso, títulos y descripciones).
 
-3. Footer
+3. **Footer**
 
 Incluye dos menús de navegación correspondientes a los listados de secciones de la página y de redes sociales, así como un apartado de copyright. En los elementos del listado se ha seguido el mismo sistema de **reutilización de código mediante partials de HTML**. Todos los elementos están maquetados con **flex**.
 
