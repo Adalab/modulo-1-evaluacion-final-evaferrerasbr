@@ -1,4 +1,49 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+## Evaluación final del módulo 1
+
+![Homepage]()
+
+## Descripción
+
+El ejercicio de evaluación final consiste en maquetar una web responsive en base a un diseño dado utilizando **html** y **SASS**.
+
+Además, para esta maquetación hemos utilizado **npm** y **gulp**.
+
+## Estructura
+
+```
+src
+├── components
+│ ├── App.js - Controla el estado de la aplicación y el renderizado de los componentes
+│ ├── CharacterList.js - Listado con los personajes que se mostrarán en pantalla
+│ ├── CharacterCard.js - Artículo con cada tarjeta de personaje del listado
+│ ├── CharacterDetail.js - Tarjeta con detalles del personaje a la que accedemos mediante React router
+│ ├── Filters - Formulario con los filtros por nombre, género, status y para ordenar alfabéticamente
+│ ├── Extras - Contiene componentes que añaden mejoras a la experiencia de usuaria
+│ ├── Header.js
+│ └── Footer.s
+├── images
+├── images-readme
+├── services
+│ └── api.js - Gestiona la llamada a la API y captura el error si se produce
+│ └── localstorage.js - Almacena la búsqueda de la usuaria en el local storage
+├── stylesheets - Las hojas de estilo siguen la misma estructura que los componentes
+└── index.js
+```
+
+El proyecto tiene las ramas principales máster y dev. Además, hemos utilizado el **sistema de Issues de Github** para organizar el trabajo. Cada una de las ramas del proyecto se corresponde con un issue, que tiene detalladas las tareas realizadas. Se han marcado como "bonus" todas las tareas extra que no eran requerimientos necesarios para la evaluación.
+
+## Descarga e instalación
+
+Para usar este proyecto en tu equipo local:
+
+1. Descarga el repositorio
+2. Instala node
+3. Haz **npm install** para instalar las dependencias
+4. Haz **npm start**
+
+## Demo
+
+Para ver la aplicación en funcionamiento puedes visitar el [siguiente enlace](https://evaferrerasbr.github.io/modulo-3-evaluacion-final-evaferrerasbr/#/), que también se encuentra disponible en la descripción del proyecto.
 
 ## Evaluación final del módulo 1
 
